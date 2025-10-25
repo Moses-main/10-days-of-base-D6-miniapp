@@ -1,40 +1,59 @@
-# Waitlist Mini App Quickstart
+# Waitlist# Beta - Your AI Ad Companion
 
-This is a demo Mini App application built using OnchainKit and the Farcaster SDK. Build a waitlist sign-up mini app for your company that can be published to the Base app and Farcaster.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Prerequisites
+A Farcaster Mini App that allows users to join a waitlist for early access to Beta, an AI-powered advertising companion. Built with Next.js and the Farcaster MiniApp SDK.
 
-Before getting started, make sure you have:
+## Features
 
-* Base app account
-* A [Farcaster](https://farcaster.xyz/) account
-* [Vercel](https://vercel.com/) account for hosting the application
-* [Coinbase Developer Platform](https://portal.cdp.coinbase.com/) Client API Key
+- 🔐 Seamless Farcaster authentication
+- ✉️ Email collection for waitlist signup
+- 📱 Mobile-optimized UI
+- 🎨 Modern, clean interface
+- 📱 Farcaster-native sharing capabilities
 
 ## Getting Started
 
-### 1. Clone this repository 
+### Prerequisites
 
-```bash
-git clone https://github.com/base/demos.git
-```
+- Node.js 18+ and npm/yarn/pnpm
+- A Farcaster account
+- Basic understanding of Next.js and React
 
-### 2. Install dependencies:
+### Installation
 
-```bash
-cd demos/minikit/waitlist-mini-app-qs
-npm install
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Moses-main/10-days-of-base-D6-miniapp.git
+   cd 10-days-of-base-D6-miniapp/new-mini-app-quickstart
+   ```
 
-### 3. Configure environment variables
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   ```
 
-Create a `.env.local` file and add your environment variables:
+3. Set up environment variables:
+   Create a `.env.local` file in the root directory with the following variables:
+   ```
+   NEXT_PUBLIC_URL=http://localhost:3000
+   # Add other required environment variables here
+   ```
 
-```bash
-NEXT_PUBLIC_PROJECT_NAME="Your App Name"
-NEXT_PUBLIC_ONCHAINKIT_API_KEY=<Replace-WITH-YOUR-CDP-API-KEY>
-NEXT_PUBLIC_URL=
-```
+4. Run the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   # or
+   bun dev
+   ```
 
 ### 4. Run locally:
 
